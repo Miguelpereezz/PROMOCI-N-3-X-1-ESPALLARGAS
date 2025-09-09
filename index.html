@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promoción 3×1 — SKINDERMA</title>
+<meta name="description" content="Promoción 3×1 en faciales: The Cure, Excel Therapy O2, T. Radiante‑C. Menciona 'Descuento 3x1' en la peluquería y se aplicará automáticamente.">
+<style>
+  :root {
+    --bg: #f6f1eb;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #111111;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
+    color: var(--ink); background: var(--bg);
+    line-height: 1.4;
+  }
+  .wrap {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .left {
+    position: relative;
+    background: #000;
+  }
+  .left img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+  }
+  .right {
+    padding: clamp(20px, 5vw, 64px);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .card {
+    width: min(720px, 100%);
+    background: #fff; border-radius: 24px; padding: clamp(20px, 4vw, 40px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    border: 1px solid rgba(0,0,0,.05);
+  }
+  .eyebrow { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; opacity: .8; }
+  h2 { margin: .35rem 0 1rem; font-size: clamp(28px, 4vw, 40px); }
+  .price { font-weight: 700; white-space: nowrap; }
+  ul { list-style: none; padding: 0; margin: 1rem 0; }
+  li { display: grid; grid-template-columns: 1fr auto; gap: .5rem; padding: 12px 0; border-bottom: 1px dashed rgba(0,0,0,.1); }
+  li:last-child { border-bottom: 0; }
+  .note { color: var(--muted); margin-top: .75rem; font-size: 14px; }
+  .actions { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 16px; }
+  button, .btn {
+    appearance: none; border: 0; border-radius: 999px; padding: 12px 18px;
+    font-weight: 600; cursor: pointer; text-decoration: none;
+  }
+  .btn-primary { background: #111; color: #fff; }
+  .btn-outline { background: transparent; color: #111; border: 1px solid #111; }
+  .btn-green { background: #25D366; color: #fff; }
+  .btn-call { background: #007AFF; color: #fff; }
+  .footer { margin-top: 24px; font-size: 12px; color: var(--muted); }
+  iframe { width: 100%; height: 300px; border: 0; border-radius: 16px; margin-top: 1rem; }
+  @media (max-width: 899px) {
+    .wrap { grid-template-columns: 1fr; }
+    .left { display: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="left">
+      <img src="64513e11-ccd4-47f7-a5ed-c7c5b63fc085.png" alt="Promoción 3×1 — SKINDERMA">
+    </div>
+    <div class="right">
+      <article class="card" aria-labelledby="promo">
+        <div class="eyebrow">✨ Promoción 3×1</div>
+        <h2 id="promo">Faciales en promoción</h2>
+        <p>Solo ven a la peluquería y <strong>menciona “Descuento 3×1”</strong>. Lo aplicamos al momento, sin cupones ni códigos.</p>
+        <ul>
+          <li><span><strong>The Cure</strong> <em>(Detox y Pureza)</em></span><span class="price">100 €/sesión</span></li>
+          <li><span><strong>Excel Therapy O2</strong> <em>(Vitalidad y Oxigenación)</em></span><span class="price">80 €/sesión</span></li>
+          <li><span><strong>T. Radiante‑C</strong> <em>(Antioxidante e ilumina la piel)</em></span><span class="price">75 €/sesión</span></li>
+        </ul>
+        <p class="note">La sesión de regalo será la de menor importe.</p>
+        <div class="actions">
+          <a class="btn btn-green" href="https://wa.me/34625711164" target="_blank">Reservar por WhatsApp</a>
+          <a class="btn btn-outline" href="https://www.treatwell.es/establecimiento/espallargas-peluqueria-y-estetica/" target="_blank">Reservar en Treatwell</a>
+          <a class="btn btn-outline" href="https://www.fresha.com/es/lvp/espallargas-peluqueria-y-estetica-avenida-de-san-jose-zaragoza-0aAbQQ" target="_blank">Reservar en Fresha</a>
+          <a class="btn btn-call" href="tel:+34625711164">Llamar ahora</a>
+        </div>
+
+        <h3>📍 Dirección</h3>
+        <p>Avd San José 100, Zaragoza</p>
+
+        <h3>🕒 Horario</h3>
+        <p>Lunes a Sábado: 10:00 – 20:00</p>
+
+        <iframe src="https://www.google.com/maps?q=Avd+San+José+100,+Zaragoza&output=embed"></iframe>
+
+        <div class="footer">© SKINDERMA · Promoción sujeta a disponibilidad.</div>
+      </article>
+    </div>
+  </div>
+</body>
+</html>
